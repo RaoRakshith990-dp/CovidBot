@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covidbot">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CovidBot">
+        <activity android:name=".ChatInterface.DisplayUsers"></activity>
+        <activity
+            android:name=".UserType"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_user_type"
+            android:theme="@style/Theme.CovidBot.Fullscreen" />
+        <activity
+            android:name=".UsetTypeAsk"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_uset_type_ask"
+            android:theme="@style/Theme.CovidBot.Fullscreen" />
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/Theme.CovidBot.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterPage" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,262 @@
+{
+  "project_info": {
+    "project_number": "1022658585888",
+    "firebase_url": "https://otpmanager-23316.firebaseio.com",
+    "project_id": "otpmanager-23316",
+    "storage_bucket": "otpmanager-23316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022658585888:android:70afd077b55241e34da345",
+        "android_client_info": {
+          "package_name": "com.example.covidbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022658585888-nnbq81lp288uisl5lpk3ogsv2jreulcj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.covidbot",
+            "certificate_hash": "0fdee664f07ffec5f7f36fb208280e818069f541"
+          }
+        },
+        {
+          "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaehMFPKC4Ww1Y_PUht2pSmv4az2ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022658585888:android:a7a86f228c7885504da345",
+        "android_client_info": {
+          "package_name": "com.example.teammanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022658585888-bkl1uuhue11sejvugmqohophadgah6nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teammanagement",
+            "certificate_hash": "0fdee664f07ffec5f7f36fb208280e818069f541"
+          }
+        },
+        {
+          "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaehMFPKC4Ww1Y_PUht2pSmv4az2ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022658585888:android:ade66670c58678104da345",
+        "android_client_info": {
+          "package_name": "com.example.upload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022658585888-pb7aueo5ro4gng64ojdj5mrq7pvrmj6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.upload",
+            "certificate_hash": "661e5984ff401535b63973fe13c0267cbf520a9b"
+          }
+        },
+        {
+          "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaehMFPKC4Ww1Y_PUht2pSmv4az2ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022658585888:android:3b0d9afa46f44ec64da345",
+        "android_client_info": {
+          "package_name": "com.example.zerohourhealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022658585888-8aqri7147tu9hr1ph853vqeb9eioprrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zerohourhealthcare",
+            "certificate_hash": "0fdee664f07ffec5f7f36fb208280e818069f541"
+          }
+        },
+        {
+          "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaehMFPKC4Ww1Y_PUht2pSmv4az2ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022658585888:android:8820aba2161113104da345",
+        "android_client_info": {
+          "package_name": "com.example.zerohourhealthcareprofessional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022658585888-1tie9t84b6k20j291tu4pn69g850671o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zerohourhealthcareprofessional",
+            "certificate_hash": "0fdee664f07ffec5f7f36fb208280e818069f541"
+          }
+        },
+        {
+          "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaehMFPKC4Ww1Y_PUht2pSmv4az2ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022658585888:android:aa58c7408a6c00c54da345",
+        "android_client_info": {
+          "package_name": "com.example.zerohourhealthcareprofessional.doctorportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaehMFPKC4Ww1Y_PUht2pSmv4az2ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022658585888:android:73d07aaa47e299374da345",
+        "android_client_info": {
+          "package_name": "com.zerohour.zerohourhealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022658585888-if5b4ajdo078b8j0pkb83om7d5dgde85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerohour.zerohourhealthcare",
+            "certificate_hash": "0fdee664f07ffec5f7f36fb208280e818069f541"
+          }
+        },
+        {
+          "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaehMFPKC4Ww1Y_PUht2pSmv4az2ghs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022658585888-4pqprsnq8lhqag0jb910b2u9pdu01num.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
