@@ -16,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.covidbot.Model.User;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -126,7 +127,7 @@ public class LoginActivity extends AppCompatActivity {
     private void updateUI(FirebaseUser firebaseUser){
         GoogleSignInAccount account=GoogleSignIn.getLastSignedInAccount(getApplicationContext());
         if(account!=null){
-            mRef= FirebaseDatabase.getInstance().getReference("userdata").child(mAuth.getCurrentUser().getUid());
+            mRef= FirebaseDatabase.getInstance().getReference("Users");
             String personName=account.getDisplayName();
             String personGivenName=account.getGivenName();
             String personFamilyName=account.getFamilyName();
@@ -135,8 +136,9 @@ public class LoginActivity extends AppCompatActivity {
             String personNum="N/A";
             Uri personPhoto=account.getPhotoUrl();
             //String perphoto=personPhoto;
-            ProfileDetails profde= new ProfileDetails(personName,personEmail, String.valueOf(personPhoto),personNum);
-            mRef.child("Profile").setValue(profde);
+            //ProfileDetails profde= new ProfileDetails(personName,personEmail, String.valueOf(personPhoto),personNum);
+            User user = new User(personName,String.valueOf(personPhoto),mAuth.getCurrentUser().getUid(),"offline");
+            mRef.child(mAuth.getCurrentUser().getUid()).setValue(user);
             Toast.makeText(this, "The user details are:"+personName+","+personGivenName+","+personFamilyName+","+personEmail+","+personId, Toast.LENGTH_SHORT).show();
         }
     }

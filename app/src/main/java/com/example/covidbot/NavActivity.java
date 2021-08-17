@@ -26,6 +26,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import java.util.HashMap;
+
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
 public class NavActivity extends AppCompatActivity {
@@ -38,7 +40,7 @@ public class NavActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav);
         mAuth= FirebaseAuth.getInstance();
-        mRef= FirebaseDatabase.getInstance().getReference("userdata").child(mAuth.getCurrentUser().getUid()).child("Profile");
+        mRef= FirebaseDatabase.getInstance().getReference("Users").child(mAuth.getCurrentUser().getUid());
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -58,8 +60,8 @@ public class NavActivity extends AppCompatActivity {
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if(snapshot.hasChild("profileimage")) {
-                    String imgu = snapshot.child("profileimage").getValue().toString();
+                if(snapshot.hasChild("imageurl")) {
+                    String imgu = snapshot.child("imageurl").getValue().toString();
                     if(imgu != null) {
                         Picasso.with(getApplicationContext()).load(imgu).resize(80, 80).transform(new CropCircleTransformation()).into(nav_image);
                     }
@@ -107,4 +109,5 @@ public class NavActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }

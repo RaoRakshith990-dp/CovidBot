@@ -15,4 +15,209 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_uset_type_ask">FullscreenActivity</string>
+    <string name="title_activity_info_doc">InfoDoc</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_navigation1">Navigation1</string>
+    <string name="backhome">Back to home</string>
+    <string name="confapptbook">Book an appointment Now</string>
+    <string name="searchdoctor">Search for doctors</string>
+    <string name="dateselect">Select a date</string>
+    <string name="timeavail">Available Times</string>
+    <string name="apptfor">Appointment for...</string>
+    <string name="fullname">Full Name</string>
+    <string name="entermail">Enter email</string>
+    <string name="confappt">Confirm Appointment</string>
+    <string name="presentcomplain">Present Complain</string>
+    <string name="durationprob">Duration of problem</string>
+    <string name="intenprob">Intensity of problem</string>
+    <string name="anyother">Any other problem</string>
+    <string name="anyallergy">Any allergy known</string>
+    <string name="specifyprob">Please specify the problems</string>
+    <string name="entmess">Type your message</string>
+    <string name="bookn">Book Now</string>
+    <string name="nameofcons">Name of consultant</string>
+    <string name="dateofappt">Date of appointment</string>
+    <string name="typeofappt">Type of appointment</string>
+    <string name="strtcll">Start your Call</string>
+    <string name="enttheemail">Enter the email id</string>
+    <string name="reset">RESET PASSWORD</string>
+    <string name="mybook">My Bookings</string>
+    <string name="bookapptnow">Book Appointment now</string>
+    <string name="signin">Sign-In</string>
+    <string name="signup">Sign-Up</string>
+    <string name="enmil">ENTER YOUR EMAIL Id</string>
+    <string name="login">LOGIN</string>
+    <string name="forpass">FORGOT PASSWORD?...CLICK HERE</string>
+    <string name="enphone">Enter your phone number</string>
+    <string name="sub">SUBMIT</string>
+    <string name="alhave">Already have an account?? SignIn</string>
+    <string name="city">City</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="addresse">Address</string>
+    <string name="otherin">Other Info</string>
+    <string name="upda">Update</string>
+    <string name="crup">CREATE YOUR PASSWORD</string>
+    <string name="coup">CONFIRM YOUR PASSWORD</string>
+    <string name="fin">FINISH</string>
+    <string name="iamlook">i am looking for....</string>
+    <string name="doctoronline">Doctors online \n to serve you for free on chat</string>
+    <string name="coldcough">Cold,Cough \nand fever</string>
+    <string name="diet">Dietician</string>
+    <string name="genphy">General \n Physician</string>
+    <string name="derm">Dermatologist</string>
+    <string name="phys">Physiotherapist</string>
+    <string name="orth">Orthopedics</string>
+    <string name="endo">Endocrinology</string>
+    <string name="radio">Radiology</string>
+    <string name="cardio">Cardiology</string>
+    <string name="neuro">Neurology</string>
+    <string name="psy">Psychiatry</string>
+    <string name="obs">Obsetrics</string>
+    <string name="opth">Opthalmology</string>
+    <string name="sugg">Give suggestions</string>
+    <string name="healtip">Todays Health Tip :</string>
+    <string name="exper"> Experience</string>
+    <string name="qualify"> Qualification</string>
+    <string name="consf"> Consultancy fees</string>
+    <string name="feed"> Feedback</string>
+    <string name="soon">soon....</string>
+    <string name="knlang">Known languages</string>
+    <string name="spec">Specialization</string>
+    <string name="timav">Available Timings</string>
+    <string name="feasoo">Feature coming soon....</string>
+    <string name="com">Coming</string>
+    <string name="ped">Pediatrics</string>
+    <string name="uro">Urology</string>
+    <string name="neph">Nephrology</string>
+    <string name="den">Dental</string>
+    <string name="rheu">Rheumatology</string>
+    <string name="gensur">General \n Surgery</string>
+    <string name="ent">ENT</string>
+    <string name="donkn">Dont know</string>
+    <string name="encode">Enter the code</string>
+    <string name="patinm">PatientName :</string>
+    <string name="cons">Consultant :</string>
+    <string name="dat">Date :</string>
+    <string name="mission">Our Mission</string>
+    <string name="zhhcab3">To build the best medical app and bring the hospital partially to them where they can find health service at their doorstep. We are committed to provide the emergency services required any time by the best healthcare providers from all corners of the country .</string>
+    <string name="tim">Time :</string>
+    <string name="enter">Enter here....</string>
+    <string name="rating1">Would love to know \n your experience with us</string>
+    <string name="enquery">Please enter your \n query below</string>
+    <string name="vis">Our Vision</string>
+    <string name="zhhcab2">Be the best healthcare online application center of excellence and serve billions of lives.</string>
+    <string name="zhhcab1">Zerohourhealthcare is an online app portal,\n which connects the user to his preferred\n specialization of healthcare and healthcare\n professionals, or doctors. It focuses on bridging \naway the gap between you and the world of \nhealth.</string>
+    <string name="gastro">Gastroenterology</string>
+    <string name="enpass">ENTER YOUR PASSWORD</string>
+    <string name="enterregemail">Enter registered Email-id \n to send the reset password link</string>
+    <string name="timeofappt">Time of appointment</string>
+    <string-array name="Support_Kind">
+        <item>1. Medical Examination</item>
+        <item>2. Medicines</item>
+        <item>3. Doctors Appointment</item>
+        <item>4. Other</item>
+    </string-array>
+    <string-array name="Support_1">
+        <item>1. Type 1 Medical Examination</item>
+        <item>2. Type 2 Medical Examination</item>
+        <item>3. Type 3 Medical Examination</item>
+    </string-array>
+    <string-array name="Support_2">
+        <item>1. Medicine Info</item>
+        <item>2. Buy Medicine</item>
+        <item>3. Medicinal Complaint</item>
+    </string-array>
+    <string-array name="Support_3">
+        <item>1. Virtual Doctor</item>
+        <item>2. Doctor at Home</item>
+        <item>3. Book appointment in a nearby clinic</item>
+    </string-array>
+    <string-array name="Kind_of_doctor">
+        <item>1. General Physician</item>
+        <item>2. Cardiologist</item>
+        <item>3. Audiologist</item>
+        <item>4. Dentist</item>
+        <item>5. ENT specialist</item>
+        <item>6. Gynaecologist</item>
+        <item>7. Orthopaedic Surgeon</item>
+        <item>8. paediatrician</item>
+        <item>9. psychiatrists </item>
+        <item>10. veterinarian </item>
+        <item>11. radiologist </item>
+        <item>12. pulmonologis </item>
+        <item>13. endocrinologist </item>
+        <item>14. oncologiist </item>
+        <item>15. neurologist</item>
+        <item>16. cardiothoracic</item>
+        <item>17. i am not sure </item>
+
+    </string-array>
+    <string-array name="Problem">
+        <item>1. general health problem (fever, cough, and cold) </item>
+        <item>2. heart or blood vessels </item>
+        <item>3. ear </item>
+        <item>4. teeth </item>
+        <item>5. ear, nose and throat </item>
+        <item>6. reproduction (vagina, ovaries and breasts) </item>
+        <item>7. bone and muscles </item>
+        <item>8. child health </item>
+        <item>9. mental health </item>
+        <item>10. internal and external injuries (x-ray, ct scan, MRI, ultrasound etc report analysis) </item>
+        <item>11. lungs(breathing problem) </item>
+        <item>12. animal health </item>
+        <item>13. digestion problem(stomach,pituitary,pancreas,thyroid,diabetes,etc) </item>
+        <item>14. cancer related queries</item>
+        <item>15. nervous disorder(brain,spinal cord,nerve sense) </item>
+        <item>16. Chest(lungs,oesophagus,thorax)</item>
+        <item>17. Still not sure</item>
+    </string-array>
+    <string name="intro">i am doctor X,your virtual health assistant. </string>
+    <string name="help">how can I help you? </string>
+    <string name="choosequery">please choose your query\n from the below option \n to help me guide you better </string>
+    <string name="support">what kind of support do you need from me ? </string>
+    <string name="doctorkind">what kind of doctor would\n you like to set an appointment with </string>
+    <string name="partbody">which part of your body \n are you having a problem with ?</string>
+    <string name="note">thank you for your inputs, \n you can choose from a list of doctors,\n and schedule your appointment accordingly.\n we are always here to help you.</string>
+    <string-array name="choice_items">
+        <item>fever</item>
+        <item>cold and cough</item>
+        <item>diarrhea</item>
+        <item>breathing trouble</item>
+        <item>pain</item>
+        <item>urinary retention</item>
+        <item>urinary incontinence</item>
+        <item>headache</item>
+        <item>dizziness</item>
+        <item>vomiting</item>
+    </string-array>
+    <string-array name="duration">
+        <item>1-3 days</item>
+        <item> >3 days</item>
+        <item> >7 days</item>
+    </string-array>
+    <string-array name="intensity">
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Severe</item>
+    </string-array>
+    <string-array name="anyknown">
+        <item>diabetes</item>
+        <item>thyroid</item>
+        <item>hypertension</item>
+        <item>asthma</item>
+        <item>others</item>
+    </string-array>
+    <string-array name="languagesknown">
+        <item>Hindi</item>
+        <item>English</item>
+        <item>Span ish</item>
+    </string-array>
+    <string-array name="specialities">
+        <item>cardiologist</item>
+        <item>dentist</item>
+        <item>neurologist</item>
+        <item>gynaecologist</item>
+    </string-array>
 </resources>

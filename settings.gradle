@@ -1,2 +1,4 @@
 include ':app'
 rootProject.name = "CovidBot"
+include ':commonlib'
+include ':mobilertc'

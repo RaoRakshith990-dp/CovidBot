@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.covidbot.Model.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -59,9 +60,11 @@ DatabaseReference mRef;
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()){
                         String separated[] = emails.split("@");
-                        mRef= FirebaseDatabase.getInstance().getReference("userdata").child(mAuth.getCurrentUser().getUid()).child("Profile");
-                        mRef.child("useremail").setValue(emails);
-                        mRef.child("username").setValue(separated[0]);
+                        mRef= FirebaseDatabase.getInstance().getReference("Users");
+//                        mRef.child("useremail").setValue(emails);
+//                        mRef.child("username").setValue(separated[0]);
+                        User user = new User(separated[0],"default",mAuth.getCurrentUser().getUid(),"offline");
+                        mRef.child(mAuth.getCurrentUser().getUid()).setValue(user);
                         startActivity(new Intent(RegisterPage.this,MainActivity.class));
                         Toast.makeText(RegisterPage.this, "Registere Successfully", Toast.LENGTH_SHORT).show();
                     }
